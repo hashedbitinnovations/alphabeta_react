@@ -1,14 +1,9 @@
 module concept
 react-dom
 component
-types of component
 JSX / templating
-
-
-
-
-
-
+Virtual DOM
+types of component
 
 
 
@@ -42,3 +37,21 @@ JSX / templating
 // customisation
 
 
+
+
+
+
+//////////////////////////////////////
+Template
+
+PHP - Laravel - Blade templating
+Express - JS - third - ejs, .................
+PHP - ?>
+JAVA - jsp, servelet
+React - JSX = HTML + limited JS inside return part of any component.
+
+
+displaying variables, expresseions
+display list or table - js loop - for, while, foreach, for of, array.map
+onEvent, class, inline styles
+if else - conditionals - && (if) and Ternary(if else)
