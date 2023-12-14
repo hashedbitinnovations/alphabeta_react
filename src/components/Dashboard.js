@@ -38,6 +38,10 @@ const Dash = () => {
 
     ]
 
+    let age = 15;
+
+    let status = false;
+
     return(
         <div>
             <h2 className="title">Dashboard</h2>
@@ -74,6 +78,16 @@ const Dash = () => {
                 }
 
             </table>
+
+            {
+                (age>18) && <h2>Content for 18+</h2>
+            }
+
+
+            {
+                status ? (<h2>Status true</h2>) : (<h2>Status false</h2>)
+            }
+
         </div>
     )
 }
