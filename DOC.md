@@ -3,8 +3,9 @@ react-dom
 component
 JSX / templating
 Virtual DOM
-types of component
-
+types of component :-
+functional component
+class component
 
 
 
@@ -56,3 +57,16 @@ display list or table - js loop - for, while, foreach, for of, array.map
 onEvent, class, inline styles
 if else - conditionals - && (if) and Ternary(if else)
 Fragment
+
+
+
+
+state and props variable
+virtual dom
+class components
+state in class component
+lifecycle methods
+hooks - react, react supporting libraries, third party libarries, custom hooks
+bootstrap and styles
+template creation
+routing

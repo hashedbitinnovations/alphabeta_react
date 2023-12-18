@@ -38,9 +38,9 @@ const Dash = () => {
 
     ]
 
-    let age = 15;
+    let age = 21;
 
-    let status = false;
+    let status = true;
 
     return(
         <div>
