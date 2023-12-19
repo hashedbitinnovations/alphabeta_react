@@ -61,8 +61,27 @@ Fragment
 
 
 
-state and props variable
+state variable - to temprarily store varibales / to memorize
+
+
 virtual dom
+
+initial component load - first time
+virtual dom created
+then actual dom is displayed
+if any state or props is updated
+component re-renders
+if there is any re-render, new vitual dom is created
+now, new virtual dom is compared with old virtual dom
+all the differences are calculated and informed to actual dom/updated on actual dom
+
+
+props variable
+state vs props
+
+
+
+
 class components
 state in class component
 lifecycle methods
