@@ -78,6 +78,9 @@ all the differences are calculated and informed to actual dom/updated on actual 
 
 props variable
 state vs props
+used for storing data in component  ------- used to transfer data from one comp to another comp
+state data can be updated              ---- props data can not be chnaged
+state varibales are mutable         ------- props are immutable
 
 
 

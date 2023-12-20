@@ -8,5 +8,7 @@ import StateFn from './components/StateFn';
 import ShowHideFn from './components/ShowHideFn';
 import Parent from './Parent';
 
+import ClassComp from './components/ClassComp';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Parent />);
+root.render(<ClassComp />);

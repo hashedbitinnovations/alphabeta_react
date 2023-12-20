@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const ShowHideFn = () => {
 
     const [status, setStatus] = useState(true);
-    
+
     // Not Actual implementation
     // console.log(' Line No - 7', status)
     // setStatus(false)
@@ -23,12 +23,24 @@ const ShowHideFn = () => {
         setStatus(false)
     }
 
+    const toggledisplayfn = () => {
+        setStatus(status => !status);
+    }
+
     return (
         <>
             <h2>Show Hide Implementation</h2>
 
             <button onClick={showContentFn} disabled={status}>Show Content</button>
             <button onClick={hideContentFn} disabled={!status}>Hide Content</button>
+
+            <br></br>
+            <br></br>
+
+
+            <button onClick={toggledisplayfn}>{
+                status ? 'Hide Content' : 'Show Content'
+            }</button>
 
             {
                 status && <div id='content'>
