@@ -68,10 +68,15 @@ export default ClassComp;
 
 // Re-mounting / Re-rendering Phase
 // //getDerivedStatefromProps
-// shouldComponentUpdate - check swhether component has to be updated or not
+// shouldComponentUpdate - check whether component has to be updated or not
 // render - reload jsx
-// componentDidUpdate - runs after every reloading
+// componentDidUpdate - runs after every reloading except 1st
 
 
 // Unmounting Phase
 // componentWillUnmount - just before leaving component
+
+
+
+
+//HW - Implement show hide functionality in Class Component.

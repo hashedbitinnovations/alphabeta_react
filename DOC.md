@@ -88,7 +88,9 @@ state varibales are mutable         ------- props are immutable
 class components
 state in class component
 lifecycle methods
-hooks - react, react supporting libraries, third party libarries, custom hooks
+
 bootstrap and styles
 template creation
 routing
+
+hooks - react, react supporting libraries, third party libarries, custom hooks

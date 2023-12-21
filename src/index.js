@@ -7,8 +7,9 @@ import About from './components/About';
 import StateFn from './components/StateFn';
 import ShowHideFn from './components/ShowHideFn';
 import Parent from './Parent';
+import InputHandling from './components/InputHandling';
 
 import ClassComp from './components/ClassComp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<ClassComp />);
+root.render(<InputHandling />);
