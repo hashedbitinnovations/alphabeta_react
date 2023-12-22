@@ -85,12 +85,15 @@ state varibales are mutable         ------- props are immutable
 
 
 
-class components
-state in class component
+class components, state in class component
 lifecycle methods
 
 bootstrap and styles
 template creation
 routing
+
+useEffect - api call
+Form Handling
+
 
 hooks - react, react supporting libraries, third party libarries, custom hooks

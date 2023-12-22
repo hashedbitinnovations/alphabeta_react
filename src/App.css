@@ -52,3 +52,7 @@ code {
     transform: rotate(360deg);
   }
 }
+
+.bg-custom1 {
+  background-color: aquamarine;
+}
