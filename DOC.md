@@ -97,3 +97,6 @@ Form Handling
 
 
 hooks - react, react supporting libraries, third party libarries, custom hooks
+hoc
+context
+redux

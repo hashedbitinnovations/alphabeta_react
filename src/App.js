@@ -12,6 +12,7 @@ import About from "./components/pages/About";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
 import Blog from "./components/pages/Blog";
+import IPLTable from "./components/pages/IPLTable";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
               <Route path="/services" element={<Services/>}/>
               <Route path="/blog" element={<Blog/>}/>
               <Route path="/contact" element={<Contact/>}/>
+              <Route path="/ipltable" element={<IPLTable/>}/>
 
             </Routes>
             {/* Lorem Ipsum is simply dummy text of the printing and typesetting
