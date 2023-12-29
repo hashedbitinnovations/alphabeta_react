@@ -12,6 +12,9 @@ const Menubar = () => {
                 <Link to='/blog' className="mx-3">Blog</Link>
                 <Link to='/contact' className="mx-3">Contact</Link>
                 <Link to='/ipltable' className="mx-3">IPL Table API</Link>
+                <Link to='/input' className="mx-3">Input</Link>
+                <Link to='/form' className="mx-3">Form</Link>
+                <Link to='/classcomp' className="mx-3">ClassComp</Link>
 
                     {/* <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container-fluid">

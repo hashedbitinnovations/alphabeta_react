@@ -18,8 +18,8 @@ const IPLTable = () => {
     }, [])
 
     const sortlistfn = () => {
-        // let temp = ipllist.sort((item) => );
-        // setipllist([...temo]);
+        let temp = ipllist.sort((item, item2) => item2.NRR - item.NRR);
+        setipllist([...temp]);
     }
 
 
@@ -67,3 +67,6 @@ const IPLTable = () => {
 }
 
 export default IPLTable;
+
+
+//Loader while api call - state variable, useeffect

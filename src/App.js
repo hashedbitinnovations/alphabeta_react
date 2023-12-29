@@ -13,6 +13,9 @@ import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
 import Blog from "./components/pages/Blog";
 import IPLTable from "./components/pages/IPLTable";
+import InputHandling from "./components/InputHandling";
+import RegForm from "./components/pages/Form";
+import ClassComp from "./components/ClassComp";
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
               <Route path="/blog" element={<Blog/>}/>
               <Route path="/contact" element={<Contact/>}/>
               <Route path="/ipltable" element={<IPLTable/>}/>
+              <Route path="/input" element={<InputHandling/>}/>
+              <Route path="/form" element={<RegForm/>}/>
+              <Route path="/classcomp" element={<ClassComp/>}/>
 
             </Routes>
             {/* Lorem Ipsum is simply dummy text of the printing and typesetting

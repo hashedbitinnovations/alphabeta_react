@@ -24,6 +24,10 @@ class ClassComp extends Component {
         console.log('componentDidUpdate.................');
     }
 
+    componentWillUnmount() {
+        console.log('#######component unmounting #############')
+    }
+
     increaseFn = () => {
         console.log('increasing..........')
         this.setState({
