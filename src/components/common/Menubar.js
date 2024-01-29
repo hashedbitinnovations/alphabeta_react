@@ -15,6 +15,7 @@ const Menubar = () => {
                 <Link to='/input' className="mx-3">Input</Link>
                 <Link to='/form' className="mx-3">Form</Link>
                 <Link to='/classcomp' className="mx-3">ClassComp</Link>
+                <Link to='/emi' className="mx-3">EMI</Link>
 
                     {/* <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container-fluid">

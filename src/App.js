@@ -16,6 +16,7 @@ import IPLTable from "./components/pages/IPLTable";
 import InputHandling from "./components/InputHandling";
 import RegForm from "./components/pages/Form";
 import ClassComp from "./components/ClassComp";
+import EMI from "./components/pages/emi/EMI";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
               <Route path="/input" element={<InputHandling/>}/>
               <Route path="/form" element={<RegForm/>}/>
               <Route path="/classcomp" element={<ClassComp/>}/>
+              <Route path="/emi" element={<EMI/>}/>
 
             </Routes>
             {/* Lorem Ipsum is simply dummy text of the printing and typesetting
