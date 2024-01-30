@@ -1,6 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useContext } from "react";
+import { DataAppContext } from "../../DataContext";
 
 const About = () => {
+    const localContext = useContext(DataAppContext);
+    const {appState, setAppState} = localContext;
+    const {username} = appState;
     return (
         <>
             <div>
@@ -9,6 +13,12 @@ const About = () => {
             <div>
                 test 2
             </div>
+            <input type="text" onBlur={(e) => setAppState({...appState, username: e.target.value})}/>
+
+            <br>
+            </br>
+            <div>Hi {username}</div>
+            
         </>
     )
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { DataAppContext } from "../DataContext"; //import context variable
 
 class ClassComp extends Component {
 
@@ -53,6 +54,20 @@ class ClassComp extends Component {
 
                 <button onClick={this.increaseFn}>Increase</button>
                 <button onClick={this.decreaseFn}>Decrease</button>
+
+
+                <br></br>
+                <br></br>
+                <DataAppContext.Consumer>
+                    {
+                        (localContext) => {
+                            console.log(localContext)
+                            return(
+                                <div>Hi {localContext.appState.username}</div>
+                            )
+                        }
+                    }
+                </DataAppContext.Consumer>
             </>
         )
     }
