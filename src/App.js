@@ -17,6 +17,8 @@ import InputHandling from "./components/InputHandling";
 import RegForm from "./components/pages/Form";
 import ClassComp from "./components/ClassComp";
 import EMI from "./components/pages/emi/EMI";
+import FormRef from "./components/pages/FormRef";
+import ServiceDetails from "./components/pages/ServiceDetails";
 
 import DataContext, { DataAppContext } from "./DataContext";
 
@@ -45,6 +47,8 @@ function App() {
                   <Route path="/form" element={<RegForm />} />
                   <Route path="/classcomp" element={<ClassComp />} />
                   <Route path="/emi" element={<EMI />} />
+                  <Route path="/formref" element={<FormRef />} />
+                  <Route path="/servicedetails/:servicename" element={<ServiceDetails />} />
 
                 </Routes>
                     {/* Lorem Ipsum is simply dummy text of the printing and typesetting

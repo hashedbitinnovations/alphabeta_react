@@ -1,5 +1,6 @@
 import React from 'react';
 import { Formik, Field, Form } from 'formik';
+import { useNavigate } from 'react-router-dom';
 
 const RegForm = () => {
 
@@ -9,10 +10,13 @@ const RegForm = () => {
         mobile: ''
     };
 
+    const navigate = useNavigate();
+
 
     const submitFormFn = (values) => {
         console.log(values);
         //api call
+        navigate('/emi')
     }
 
 
