@@ -19,6 +19,8 @@ import ClassComp from "./components/ClassComp";
 import EMI from "./components/pages/emi/EMI";
 import FormRef from "./components/pages/FormRef";
 import ServiceDetails from "./components/pages/ServiceDetails";
+import HOCCountry from "./components/pages/hoc/HOCCountry";
+import HOCState from "./components/pages/hoc/HOCState";
 
 import DataContext, { DataAppContext } from "./DataContext";
 
@@ -49,6 +51,8 @@ function App() {
                   <Route path="/emi" element={<EMI />} />
                   <Route path="/formref" element={<FormRef />} />
                   <Route path="/servicedetails/:servicename" element={<ServiceDetails />} />
+                  <Route path="/hoccountry" element={<HOCCountry />} />
+                  <Route path="/hocstate" element={<HOCState />} />
 
                 </Routes>
                     {/* Lorem Ipsum is simply dummy text of the printing and typesetting
