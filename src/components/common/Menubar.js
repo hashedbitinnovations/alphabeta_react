@@ -19,6 +19,7 @@ const Menubar = () => {
                 <Link to='/formref' className="mx-3">FormRef</Link>
                 <Link to='/hoccountry' className="mx-3">HOC Country</Link>
                 <Link to='/hocstate' className="mx-3">HOC State</Link>
+                <Link to='/hookreducer' className="mx-3">HookReducer</Link>
 
                     {/* <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container-fluid">

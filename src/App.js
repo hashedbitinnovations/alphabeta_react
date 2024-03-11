@@ -21,6 +21,7 @@ import FormRef from "./components/pages/FormRef";
 import ServiceDetails from "./components/pages/ServiceDetails";
 import HOCCountry from "./components/pages/hoc/HOCCountry";
 import HOCState from "./components/pages/hoc/HOCState";
+import HookReducer from "./components/pages/HookReducer";
 
 import DataContext, { DataAppContext } from "./DataContext";
 
@@ -53,6 +54,7 @@ function App() {
                   <Route path="/servicedetails/:servicename" element={<ServiceDetails />} />
                   <Route path="/hoccountry" element={<HOCCountry />} />
                   <Route path="/hocstate" element={<HOCState />} />
+                  <Route path="/hookreducer" element={<HookReducer />} />
 
                 </Routes>
                     {/* Lorem Ipsum is simply dummy text of the printing and typesetting
