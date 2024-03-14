@@ -117,6 +117,12 @@ all hooks, custom hooks, usenavition, useparams
 
 
 
+////////////////////////////////
+usememo usecallback
+lazy loading
+Redux
+
+
 Hooks
 React - useState, useEffect, useRef, useContext, useReducer, useCallback, useMemo
 React Supporting Libaries - router, bootstrap, react-redux

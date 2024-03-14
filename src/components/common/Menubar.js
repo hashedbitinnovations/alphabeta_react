@@ -20,6 +20,8 @@ const Menubar = () => {
                 <Link to='/hoccountry' className="mx-3">HOC Country</Link>
                 <Link to='/hocstate' className="mx-3">HOC State</Link>
                 <Link to='/hookreducer' className="mx-3">HookReducer</Link>
+                <Link to='/hookmemo' className="mx-3">HookMemo</Link>
+                <Link to='/hookcallback' className="mx-3">HookCallback</Link>
 
                     {/* <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container-fluid">
