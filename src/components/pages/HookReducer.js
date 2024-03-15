@@ -98,3 +98,31 @@ const HookReducer = () => {
 }
 
 export default HookReducer
+
+
+
+
+
+
+// action
+// reducer
+// selector
+
+// globalreducer
+// redux store
+
+
+
+// homepage
+// categorypage
+// productpage
+// subactegory
+// product
+// cart 
+// checkout 
+
+// orders
+// wishlist
+
+
+// https://redux.js.org/assets/images/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif

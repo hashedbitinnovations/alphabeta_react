@@ -11,5 +11,13 @@ import InputHandling from './components/InputHandling';
 
 import ClassComp from './components/ClassComp';
 
+import { Provider } from 'react-redux';
+import store from './components/pages/redux/store';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+// root.render(<App />);
+root.render(
+    <Provider store={store}>
+        <App/>
+    </Provider>
+)

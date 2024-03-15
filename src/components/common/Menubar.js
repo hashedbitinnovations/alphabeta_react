@@ -22,6 +22,7 @@ const Menubar = () => {
                 <Link to='/hookreducer' className="mx-3">HookReducer</Link>
                 <Link to='/hookmemo' className="mx-3">HookMemo</Link>
                 <Link to='/hookcallback' className="mx-3">HookCallback</Link>
+                <Link to='/accounts' className="mx-3">Accounts-Redux</Link>
 
                     {/* <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container-fluid">

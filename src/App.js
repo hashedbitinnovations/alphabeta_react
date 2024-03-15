@@ -24,6 +24,7 @@ import HOCState from "./components/pages/hoc/HOCState";
 import HookReducer from "./components/pages/HookReducer";
 import HookMemo from "./components/pages/HookMemo";
 import HookCallback from "./components/pages/HookCallback";
+import Accounts from "./components/pages/Accounts";
 
 import DataContext, { DataAppContext } from "./DataContext";
 
@@ -59,6 +60,7 @@ function App() {
                   <Route path="/hookreducer" element={<HookReducer />} />
                   <Route path="/hookmemo" element={<HookMemo />} />
                   <Route path="/hookcallback" element={<HookCallback />} />
+                  <Route path="/accounts" element={<Accounts />} />
 
                 </Routes>
                     {/* Lorem Ipsum is simply dummy text of the printing and typesetting
